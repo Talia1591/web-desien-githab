@@ -1,13 +1,14 @@
 body { font-family: sans-serif;
     color: chocolate; 
-    
-        
-    
 
 
 }
 h1 {
-    color: darkgoldenrod;
-    
+    color: darkgoldenrod;   
 }
 
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
