@@ -1,10 +1,12 @@
-body { font-family: sans-serif;
-    color: chocolate; 
+body { font-family:'Assistant', sans-serif;
+font-size: 20px;
+    color: firebrick; 
 
 
 }
-h1 {
-    color: darkgoldenrod;   
+h1 {font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    color:saddlebrown;   
 }
 
 img {
