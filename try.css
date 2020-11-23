@@ -19,7 +19,7 @@ img {
 }
 
 .container {
-    max-width: 800px; 
+    max-width: 800px;
     margin: auto;
 }
 
@@ -38,9 +38,10 @@ img {
 
 
 .button {
-  background-color:brown;
-  color: #fff;
-  text-decoration: none;
-  padding: 14px;
-  display: inline-block;
+    background-color: brown;
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 14px;
+    display: inline-block;
 }
