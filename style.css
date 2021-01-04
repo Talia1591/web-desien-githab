@@ -1,94 +1,28 @@
 body {
-    font-family: 'Assistant', sans-serif;
-    font-size: 20px;
-    color: #fff;
-
-
+    font-family: 'Heebo', sans-serif;
 }
 
-h1 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 48px;
-    color: #B52A0E;
+h1, h2, h3 {
+    font-family: 'Heebo', sans-serif;
+}
+.about {
+    background-color: brown
+}
+
+.container { 
+max-width: 900px;
+    margin: auto;
+    
 }
 
 img {
-    max-width: 100%;
+    max-width: 100px;
     width: auto;
     height: auto;
+    
 }
-
-.container {
-    max-width: 800px;
-    margin: auto;
-}
-
-.cta {
-    background-color: antiquewhite;
-    font-size: 21px;
-    padding: 10px;
-    margin-top: 50px;
-    overflow: hidden;
-
-}
-
-.cta h3 {
-    color: black;
-}
-
-
-.button {
-    background-color: brown;
-    color: #fff;
-    font-size: 21px;
-    text-decoration: none;
-    padding: 14px;
-    display: inline-block;
-}
-
-.alignleft {
-    float: left;
-    max-width: 50%;
-
-}
-
-
-.newsletter {
-    padding: 60px;
-    background: url(img/bg3.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba (0, 0, 0, 0.5)), url(img/bg3.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-
-input {
-    font: inherit;
-    color: inherit;
-    background: none;
-    border: 1px solid;
-    padding: 5px;
-
-}
-
-label {
-    margin-left: 20px;
-
-}
-
-label {
-    margin-bottom: 20px;
-    display: block;
-}
-
-label span {
-    display: inline-block;
-    width: 100px;
-
-}
-
-.newsletter .button {
-    background: none;
-
+.about .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     
 }
