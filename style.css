@@ -1,28 +1,65 @@
 body {
     font-family: 'Heebo', sans-serif;
+    margin: 0;
+    line-height: 1.5;
 }
 
-h1, h2, h3 {
+
+h1,
+h2,
+h3,
+.button {
     font-family: 'Heebo', sans-serif;
-}
-.about {
-    background-color: brown
+    font-weight: 700;
 }
 
-.container { 
-max-width: 900px;
+.about {
+    background-color: cadetblue
+}
+
+.container {
+    max-width: 900px;
     margin: auto;
-    
+
 }
 
 img {
-    max-width: 100px;
+    max-width: 300px;
     width: auto;
     height: auto;
-    
+
 }
+
 .about .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-     
+    align-items: center;
+    grid-gap: 30px;
+
 }
+
+.about img {
+    display: block;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.button { 
+color: black;
+    text-decoration: none;
+    border: 3px solid #000;
+     padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
+    
+}
+.button:hover {
+    background: #000;
+    color: white;
+    
+
+}
+
