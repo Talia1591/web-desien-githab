@@ -8,18 +8,20 @@ body {
 h1,
 h2,
 h3,
-.button {
+h4 .button {
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
 }
 
 .about {
     background: url(img/patern.jpg);
+
 }
 
 .container {
     max-width: 900px;
     margin: auto;
+
 
 }
 
@@ -32,14 +34,17 @@ img {
 
 .about .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     align-items: center;
-    grid-gap: 30px;
+    grid-gap: 100px;
 
 }
 
 .about img {
     display: block;
+    margin-top: 20px;
+
+
 }
 
 h1 {
@@ -61,5 +66,76 @@ h1 {
     background: #000;
     color: white;
 
+}
+
+.logo {
+    max-width: 200px;
+    display: block;
+    margin: -2px auto;
+}
+
+.gallery {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    font-size: 22px;
+    text-align: center;
 
 }
+
+.gallery img {
+    display: block;
+    max-width: 80%;
+
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+.contact {
+    background: url(img/patern.jpg);
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
+h3 {
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    margin-bottom: -10px;
+
+}
+
+a {
+    color: salmon;
+
+}
+
+.contact a:hover {
+    opacity: 0.7;
+
+}
+
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 28px;
+    
+        
+}
+
+
