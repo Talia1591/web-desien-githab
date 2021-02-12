@@ -35,7 +35,7 @@ img {
 
 .about .container {
     display: grid;
-    grid-template-columns:1.2fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     align-items: center;
     grid-gap: 80px;
 
@@ -45,7 +45,6 @@ img {
     display: block;
     margin-top: 20px;
     zoom: 110%
-
 }
 
 h1 {
@@ -83,13 +82,13 @@ h1 {
     grid-gap: 30px;
     font-size: 22px;
     text-align: center;
-    
+
 }
 
 .gallery img {
     display: block;
     max-width: 80%;
- margin: auto;
+    margin: auto;
 }
 
 h2 {
@@ -125,7 +124,7 @@ a {
 
 .contact a:hover {
     opacity: 0.7;
-    
+
 }
 
 
@@ -135,9 +134,5 @@ a {
     padding: 100px;
     margin-top: 200px;
     zoom: 14%;
-    
+
 }
-
-
-
-
