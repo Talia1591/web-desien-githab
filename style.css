@@ -23,7 +23,6 @@ h4 .button {
     max-width: 900px;
     margin: auto;
 
-
 }
 
 img {
@@ -133,6 +132,7 @@ a {
     text-align: center;
     padding: 100px;
     margin-top: 200px;
-    zoom: 14%;
+    max-width: 100%;
+     zoom: 14%;
 
 }
