@@ -42,7 +42,7 @@ img {
 
 .about img {
     display: block;
-    margin-top: 20px;
+    padding-top: 20px;
     zoom: 110%
 }
 
@@ -135,4 +135,8 @@ a {
     max-width: 100%;
      zoom: 14%;
 
+}
+
+div {
+    
 }
