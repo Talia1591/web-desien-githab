@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'almoni-dl';
+    src: url('fonts/almoni-dl/300/almoni-dl-aaa-300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almoni-dl';
+    src: url('fonts/almoni-dl/400/almoni-dl-aaa-400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almoni-dl';
+    src: url('fonts/almoni-dl/700/almoni-dl-aaa-700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'almoni-dl';
+    src: url('fonts/almoni-dl/900/almoni-dl-aaa-900.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'almoni-dl', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+
+}
