@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-    font-size: 7.5vw;
+    font-size: 6vw;
     margin-bottom: 10px;
     font-weight: 100;
     font-weight: 700;
@@ -46,9 +46,11 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     margin-bottom: 0;
     margin-top: 20px;
+    color: #7E104C;
+    
 
 }
 
@@ -72,41 +74,41 @@ h2 {
 /* home */
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(img/mass5.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(img/mess6.jpg);
     background-size: cover;
     text-align: center;
     padding: 50px;
     font-size: 30px;
     position: relative;
     
+    /* shape */
 
 }
 
-.custom-shape-divider-bottom-1621753180 {
+.custom-shape-divider-bottom-1623667408 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1621753180 svg {
+.custom-shape-divider-bottom-1623667408 svg {
     position: relative;
     display: block;
-    width: calc(140% + 1.3px);
-    height: 99px;
+    width: calc(100% + 1.3px);
+    height: 150px;
 }
 
-.custom-shape-divider-bottom-1621753180 .shape-fill {
-    fill: #EAE7DF;
+.custom-shape-divider-bottom-1623667408 .shape-fill {
+    fill: #E8DED7;
 }
 
 
 .about {
     text-align: center;
-    background: #eae7df;
+    background:#E8DED7;
     color: #30271c;
     padding: 20px 0;
 
@@ -146,3 +148,12 @@ h3 {
 }
 
 
+
+
+
+p {
+    color: #7C5945;
+    font-size: 25px;
+    
+    
+}
