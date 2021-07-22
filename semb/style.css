@@ -33,16 +33,16 @@ body {
     font-family: 'almoni-dl', sans-serif;
     line-height: 1.5;
     font-size: 20px;
-    margin: 0;
 
 }
 
 h1 {
-    font-size: 6vw;
-    margin-bottom: 10px;
-    font-weight: 100;
+    font-size: 2vw;
+    margin: 10px;
     font-weight: 700;
-    color: aliceblue;
+    color: white;
+    background-color: black;
+
 }
 
 h2 {
@@ -50,14 +50,12 @@ h2 {
     margin-bottom: 0;
     margin-top: 20px;
     color: #7E104C;
-    
+
 
 }
 
-
-
 .logo {
-    max-width: 150px;
+    max-width: 160px;
 }
 
 .img {
@@ -74,51 +72,61 @@ h2 {
 /* home */
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)), url(img/mess6.jpg);
+
     background-size: cover;
     text-align: center;
-    padding: 50px;
     font-size: 30px;
     position: relative;
-    
+
     /* shape */
 
 }
 
-.custom-shape-divider-bottom-1623667408 {
+.custom-shape-divider-bottom-1626967442 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    position: relative;
 }
 
-.custom-shape-divider-bottom-1623667408 svg {
+.custom-shape-divider-bottom-1626967442 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 150px;
+    height: 78px;
 }
 
-.custom-shape-divider-bottom-1623667408 .shape-fill {
-    fill: #E8DED7;
+.custom-shape-divider-bottom-1626967442 .shape-fill {
+    fill: #FFC9C79E;
+}
+
+
+.custom-shape-divider-bottom-1626967315 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 78px;
 }
 
 
 .about {
     text-align: center;
-    background:#E8DED7;
+    background: #FFC9C79E;
+
     color: #30271c;
     padding: 20px 0;
 
 
 }
-.about a{
+
+.about a {
     color: #30271c;
     font-weight: bold;
     text-decoration: none;
-    
+
 }
 
 a {
@@ -143,17 +151,15 @@ a {
 }
 
 h3 {
-    color:aliceblue;
+    color: aliceblue;
     font-size: 40px;
 }
-
-
-
 
 
 p {
     color: #7C5945;
     font-size: 25px;
-    
-    
+
 }
+
+.custom-shape-divider-bottom-1626967120 {}
